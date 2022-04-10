@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.cl1 {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.inclas {
+  border-radius: 20px;
+  background-color: rgb(55, 41, 68);
+  color: wheat;
+}
+
+.inclas:focus {
+  border-radius: 20px;
+  background-color: rgb(55, 41, 68);
+  color: wheat;
+}
+
+label {
+  color: wheat !important;
+  margin-bottom: 0% !important
+}
+
+.cl-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tclas {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(55, 41, 68);
+  color: wheat;
+}
+
+.cls-4 {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(55, 41, 68);
+  color: wheat;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .cl-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tclas {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(55, 41, 68);
+    color: wheat;
+  }
+
+  .cls-4 {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(55, 41, 68);
+    color: wheat;
+  }
+}
